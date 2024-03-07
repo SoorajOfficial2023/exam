@@ -20,7 +20,7 @@ with open('data.json', 'r') as file:
      
     for sort in arr:
         name = arr.get('name')
-        if user_input  == 'apple':
+        if user_input  == name:
             print(True)
     else:
         print(False)
